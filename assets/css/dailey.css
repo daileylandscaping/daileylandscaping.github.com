@@ -1,0 +1,23 @@
+.navbar .brand {
+  color: #fff;
+  font-weight: 100;
+  padding: 10px 20px 12px;
+}
+
+.navbar .nav > li > a {
+  padding: 15px 10px 11px;
+  font-weight: 200;
+}
+
+ul.thumbnails a:hover {
+  opacity: .6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+ul.thumbnails, ul.thumbnails > li {
+  margin-bottom: 2px;
+}
+
+.slide-down {
+  margin-top: 20px;
+}
