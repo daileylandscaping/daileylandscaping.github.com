@@ -9,9 +9,14 @@
   font-weight: 200;
 }
 
-ul.thumbnails a:hover {
+ul.thumbnails a {
   opacity: .6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+ul.thumbnails a:hover {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
 ul.thumbnails, ul.thumbnails > li {
